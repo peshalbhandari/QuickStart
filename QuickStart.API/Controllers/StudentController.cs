@@ -40,7 +40,7 @@ namespace QuickStart.API.Controllers
         /// GET Student by id
         /// </summary>
         /// <param name="id"></param>
-        /// <returns></returns>
+        /// <returns>An object of type StudentDTO</returns>
         [HttpGet("{id}")]
         [ProducesResponseType(typeof(StudentDTO),StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
